@@ -1,0 +1,17 @@
+import random
+start=input('Would you like to roll dice?: ')
+
+#Defining Function to ease the code & use it anywhere inside.
+
+def game():
+    print('Your number is : ', random.randint(1,6))
+    roll_again=input('Would you like to roll again? : ')
+
+if start=='yes':
+    game()
+    while roll_again=='yes':
+        game()
+elif start=='No':
+    print('Game Over')
+else:
+    print('Dismissed')
