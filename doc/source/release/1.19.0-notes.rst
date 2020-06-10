@@ -1,6 +1,0 @@
-.. currentmodule:: numpy
-
-==========================
-NumPy 1.19.0 Release Notes
-==========================
-
